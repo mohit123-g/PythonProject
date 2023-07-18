@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
-# import googletrans
 from googletrans import Translator,LANGUAGES
 import textblob
 
@@ -19,25 +18,6 @@ def label_change():
      label1['text']=c
      label2['text']=c1
      root.after(800,label_change)
-
-
-# def change(text="type",src="English",dest="Hindi"):
-#      texts=Translator()
-#      trans1=texts.translate(text=text1.get(1.0,END),src=combo1.get(),dest=combo2.get())
-#      text2.delete(1.0,END)
-#      text2.insert(END,trans1.text)
-
-     
-
-# def d():
-#       s=combo1.get()
-#       d=combo2.get()
-#       masg=text1.get(1.0,END)
-#       textget=change(text=masg,src=s,dest=d)
-#       text2.delete(1.0,END)
-#       print(masg)
-
-#       text2.insert(END,textget)
 
 def change():
      try:
